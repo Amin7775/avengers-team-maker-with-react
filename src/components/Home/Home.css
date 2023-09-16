@@ -10,9 +10,10 @@ body{
 
 .card{
     width: 250px;
-    height: 360px;
+    height: 380px;
     border: 1px solid gray;
     padding: 10px;
+    position: relative;
 }
 
 .photo{
@@ -27,6 +28,9 @@ body{
 
 .card-btn{
     background-color: aqua;
+    position: absolute;
+    bottom: 30px;
+    left: 33%;
 }
 
 .home-container{
